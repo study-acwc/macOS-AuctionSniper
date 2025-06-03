@@ -1,1 +1,1 @@
-# iOS-AutionSniper
+# macOS-AutionSniper
