@@ -35,7 +35,7 @@ jobs:
           make generate-no-cache
 
       - name: Install dependencies
-        run: bundle install --jobs 4 --retry 3
+        run: mise exec bundle install --jobs 4 --retry 3
 
       - name: Run tests with fastlane scan
         run: bundle exec fastlane build
