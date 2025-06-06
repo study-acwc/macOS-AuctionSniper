@@ -34,11 +34,6 @@ jobs:
         run: |
           make generate-no-cache
 
-      - name: Set up Ruby & Bundler
-        uses: ruby/setup-ruby@v1
-        with:
-          bundler-cache: true
-
       - name: Install dependencies
         run: bundle install --jobs 4 --retry 3
 
