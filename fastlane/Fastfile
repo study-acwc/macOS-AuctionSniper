@@ -3,7 +3,7 @@ default_platform(:mac)
 platform :mac do
   desc "Build and test the AuctionSniper macOS app"
   lane :build do
-    sh("make generate-no-cache")
+    sh("cd .. && make generate-no-cache")
 
     scan(
       workspace: "macOS-AuctionSniper.xcworkspace",
