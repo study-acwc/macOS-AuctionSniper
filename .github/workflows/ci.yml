@@ -30,12 +30,8 @@ jobs:
           export PATH="$HOME/.local/bin:$HOME/.local/share/mise/bin:$PATH"
           mise install
 
-      - name: Generate project with Makefile
-        run: |
-          make generate-no-cache
-
       - name: Install dependencies
         run: mise exec ruby -- bundle install --jobs 4 --retry 3
 
       - name: Run tests with fastlane scan
-        run: bundle exec fastlane build
+        run: mise exec ruby -- bundle exec fastlane build
