@@ -14,24 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C874D8D41DB5D19EFB57E329"
-               BuildableName = "macOS_AutionSniper.app"
-               BlueprintName = "macOS-AutionSniper"
-               ReferencedContainer = "container:macOS-AutionSniper.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "FF96865269B1D607D0EA8319"
-               BuildableName = "macOS_AutionSniperTests.xctest"
-               BlueprintName = "macOS-AutionSniperTests"
-               ReferencedContainer = "container:macOS-AutionSniper.xcodeproj">
+               BlueprintIdentifier = "03DD44F32041967B280CF289"
+               BuildableName = "AuctionSniperEndToEndTests.xctest"
+               BlueprintName = "AuctionSniperEndToEndTests"
+               ReferencedContainer = "container:macOS-AuctionSniper.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -47,10 +33,10 @@
             parallelizable = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "FF96865269B1D607D0EA8319"
-               BuildableName = "macOS_AutionSniperTests.xctest"
-               BlueprintName = "macOS-AutionSniperTests"
-               ReferencedContainer = "container:macOS-AutionSniper.xcodeproj">
+               BlueprintIdentifier = "03DD44F32041967B280CF289"
+               BuildableName = "AuctionSniperEndToEndTests.xctest"
+               BlueprintName = "AuctionSniperEndToEndTests"
+               ReferencedContainer = "container:macOS-AuctionSniper.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -65,16 +51,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C874D8D41DB5D19EFB57E329"
-            BuildableName = "macOS_AutionSniper.app"
-            BlueprintName = "macOS-AutionSniper"
-            ReferencedContainer = "container:macOS-AutionSniper.xcodeproj">
+            BlueprintIdentifier = "03DD44F32041967B280CF289"
+            BuildableName = "AuctionSniperEndToEndTests.xctest"
+            BlueprintName = "AuctionSniperEndToEndTests"
+            ReferencedContainer = "container:macOS-AuctionSniper.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -82,16 +67,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C874D8D41DB5D19EFB57E329"
-            BuildableName = "macOS_AutionSniper.app"
-            BlueprintName = "macOS-AutionSniper"
-            ReferencedContainer = "container:macOS-AutionSniper.xcodeproj">
+            BlueprintIdentifier = "03DD44F32041967B280CF289"
+            BuildableName = "AuctionSniperEndToEndTests.xctest"
+            BlueprintName = "AuctionSniperEndToEndTests"
+            ReferencedContainer = "container:macOS-AuctionSniper.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

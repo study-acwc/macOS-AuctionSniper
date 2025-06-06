@@ -17,9 +17,9 @@
 
 // MARK: - Asset Catalogs
 
-public enum MacOSAutionSniperAsset: Sendable {
+public enum AuctionSniperAsset: Sendable {
   public enum Assets {
-  public static let accentColor = MacOSAutionSniperColors(name: "AccentColor")
+  public static let accentColor = AuctionSniperColors(name: "AccentColor")
   }
   public enum PreviewAssets {
   }
@@ -27,7 +27,7 @@ public enum MacOSAutionSniperAsset: Sendable {
 
 // MARK: - Implementation Details
 
-public final class MacOSAutionSniperColors: Sendable {
+public final class AuctionSniperColors: Sendable {
   public let name: String
 
   #if os(macOS)
@@ -56,9 +56,9 @@ public final class MacOSAutionSniperColors: Sendable {
   }
 }
 
-public extension MacOSAutionSniperColors.Color {
+public extension AuctionSniperColors.Color {
   @available(iOS 11.0, tvOS 11.0, watchOS 4.0, macOS 10.13, visionOS 1.0, *)
-  convenience init?(asset: MacOSAutionSniperColors) {
+  convenience init?(asset: AuctionSniperColors) {
     let bundle = Bundle.module
     #if os(iOS) || os(tvOS) || os(visionOS)
     self.init(named: asset.name, in: bundle, compatibleWith: nil)
@@ -73,7 +73,7 @@ public extension MacOSAutionSniperColors.Color {
 #if canImport(SwiftUI)
 @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, visionOS 1.0, *)
 public extension SwiftUI.Color {
-  init(asset: MacOSAutionSniperColors) {
+  init(asset: AuctionSniperColors) {
     let bundle = Bundle.module
     self.init(asset.name, bundle: bundle)
   }

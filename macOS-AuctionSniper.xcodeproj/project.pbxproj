@@ -1,0 +1,689 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06B0BFBE2B51AC7C6F1889EC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43CAA1DE7C3EB4B68F9387DB /* Preview Assets.xcassets */; };
+		1606192119F846F76C496E37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DA8F4685126B7E14EBC2B51 /* Assets.xcassets */; };
+		26FE506AA48A3D3D01DF58DB /* TuistBundle+AuctionSniper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC285A22908E1DEBF227FEA /* TuistBundle+AuctionSniper.swift */; };
+		2AE2285E8B8F3E97F4269F3C /* TuistAssets+AuctionSniper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF5C80F2E178C2CD5E9570A /* TuistAssets+AuctionSniper.swift */; };
+		3E27A2EC09F16D96C7C7ECFF /* MacOSAutionSniperApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E112A15A117E70645C79776 /* MacOSAutionSniperApp.swift */; };
+		3FE6760BA304836A1B52034F /* SampleEndToEndTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD890C78EEC783FAD98B143 /* SampleEndToEndTests.swift */; };
+		727B72D96611054F1BB06100 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC27CB29BB71AB8C94E6DF0B /* ContentView.swift */; };
+		C7E28CAE74F38088C6645DA0 /* MacOSAutionSniperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7A1D8110C13F089766997E /* MacOSAutionSniperTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		70547A9A39E2B8DAC2E35B10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B37085AA7A1D1CA0999FD4BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A41DF588F61A4903E155047;
+			remoteInfo = AuctionSniper;
+		};
+		9670A615EF6B08DF07849211 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B37085AA7A1D1CA0999FD4BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A41DF588F61A4903E155047;
+			remoteInfo = AuctionSniper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		44CF25077327A48CF5969447 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48E706E8781707BA85EAA9C3 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9313979F704EA0FD52FBDF16 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0DD890C78EEC783FAD98B143 /* SampleEndToEndTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleEndToEndTests.swift; sourceTree = "<group>"; };
+		168B56D1017A0DC3F4AA3FE7 /* AuctionSniper-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "AuctionSniper-Info.plist"; sourceTree = "<group>"; };
+		3DC285A22908E1DEBF227FEA /* TuistBundle+AuctionSniper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistBundle+AuctionSniper.swift"; sourceTree = "<group>"; };
+		40C45AB31A3670823C202EC8 /* AuctionSniperUnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AuctionSniperUnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		43CAA1DE7C3EB4B68F9387DB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5FF5C80F2E178C2CD5E9570A /* TuistAssets+AuctionSniper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistAssets+AuctionSniper.swift"; sourceTree = "<group>"; };
+		7E112A15A117E70645C79776 /* MacOSAutionSniperApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacOSAutionSniperApp.swift; sourceTree = "<group>"; };
+		8A7A1D8110C13F089766997E /* MacOSAutionSniperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacOSAutionSniperTests.swift; sourceTree = "<group>"; };
+		9A2FCB72E5EAD78E89DE635B /* AuctionSniperEndToEndTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "AuctionSniperEndToEndTests-Info.plist"; sourceTree = "<group>"; };
+		9DA8F4685126B7E14EBC2B51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A32948DF0040A25989566E80 /* AuctionSniperUnitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "AuctionSniperUnitTests-Info.plist"; sourceTree = "<group>"; };
+		BB6DA5B7508464C1F272F123 /* AuctionSniper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AuctionSniper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1C488A1CD7869E6FF9E7C8C /* AuctionSniperEndToEndTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AuctionSniperEndToEndTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC27CB29BB71AB8C94E6DF0B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7485F0DEC856CFF160CBD003 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		969A21A35A4AA8D2E8B9D0E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F68415AC26C0D14A675703E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21F147C585B4E9F4DE3954DA = {
+			isa = PBXGroup;
+			children = (
+				2CA9D3A2E32B056D2DEA0683 /* Project */,
+				D54127BBC74ABAEED2CE9E7F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2CA9D3A2E32B056D2DEA0683 /* Project */ = {
+			isa = PBXGroup;
+			children = (
+				CD42F67C849198A9A1596B5A /* Derived */,
+				6DC3793C2B5E0F7972DB5F34 /* macOS-AuctionSniper */,
+			);
+			name = Project;
+			sourceTree = "<group>";
+		};
+		32C22221CC62FFEB7137102D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				43CAA1DE7C3EB4B68F9387DB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4DD9F544C2ED3A31AE009B7D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				32C22221CC62FFEB7137102D /* Preview Content */,
+				9DA8F4685126B7E14EBC2B51 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		59CB472BFECB40DCA5CA8A46 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				FC27CB29BB71AB8C94E6DF0B /* ContentView.swift */,
+				7E112A15A117E70645C79776 /* MacOSAutionSniperApp.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		5C4FFE85E1B0AD45A0AD7501 /* UnitTests */ = {
+			isa = PBXGroup;
+			children = (
+				8A7A1D8110C13F089766997E /* MacOSAutionSniperTests.swift */,
+			);
+			path = UnitTests;
+			sourceTree = "<group>";
+		};
+		6DC3793C2B5E0F7972DB5F34 /* macOS-AuctionSniper */ = {
+			isa = PBXGroup;
+			children = (
+				C730B2A231E5CB9534711EC4 /* EndToEndTests */,
+				4DD9F544C2ED3A31AE009B7D /* Resources */,
+				59CB472BFECB40DCA5CA8A46 /* Sources */,
+				5C4FFE85E1B0AD45A0AD7501 /* UnitTests */,
+			);
+			path = "macOS-AuctionSniper";
+			sourceTree = "<group>";
+		};
+		75A854380C6B8677D5F1AD38 /* InfoPlists */ = {
+			isa = PBXGroup;
+			children = (
+				168B56D1017A0DC3F4AA3FE7 /* AuctionSniper-Info.plist */,
+				9A2FCB72E5EAD78E89DE635B /* AuctionSniperEndToEndTests-Info.plist */,
+				A32948DF0040A25989566E80 /* AuctionSniperUnitTests-Info.plist */,
+			);
+			path = InfoPlists;
+			sourceTree = "<group>";
+		};
+		C730B2A231E5CB9534711EC4 /* EndToEndTests */ = {
+			isa = PBXGroup;
+			children = (
+				0DD890C78EEC783FAD98B143 /* SampleEndToEndTests.swift */,
+			);
+			path = EndToEndTests;
+			sourceTree = "<group>";
+		};
+		CD42F67C849198A9A1596B5A /* Derived */ = {
+			isa = PBXGroup;
+			children = (
+				75A854380C6B8677D5F1AD38 /* InfoPlists */,
+				DB77B1B950799A0A3C9F1E6F /* Sources */,
+			);
+			path = Derived;
+			sourceTree = "<group>";
+		};
+		D54127BBC74ABAEED2CE9E7F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB6DA5B7508464C1F272F123 /* AuctionSniper.app */,
+				F1C488A1CD7869E6FF9E7C8C /* AuctionSniperEndToEndTests.xctest */,
+				40C45AB31A3670823C202EC8 /* AuctionSniperUnitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB77B1B950799A0A3C9F1E6F /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				5FF5C80F2E178C2CD5E9570A /* TuistAssets+AuctionSniper.swift */,
+				3DC285A22908E1DEBF227FEA /* TuistBundle+AuctionSniper.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03DD44F32041967B280CF289 /* AuctionSniperEndToEndTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3627EBE1BAB84109C67333F4 /* Build configuration list for PBXNativeTarget "AuctionSniperEndToEndTests" */;
+			buildPhases = (
+				32FCF962B30D22FBFCD2AF8F /* Sources */,
+				49AA8AF3AF46CF44714BBE49 /* Resources */,
+				969A21A35A4AA8D2E8B9D0E2 /* Frameworks */,
+				48E706E8781707BA85EAA9C3 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71EAB6AE484F9618D72B2DC7 /* PBXTargetDependency */,
+			);
+			name = AuctionSniperEndToEndTests;
+			packageProductDependencies = (
+			);
+			productName = AuctionSniperEndToEndTests;
+			productReference = F1C488A1CD7869E6FF9E7C8C /* AuctionSniperEndToEndTests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		3A41DF588F61A4903E155047 /* AuctionSniper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93F39C67869C335DFF4DD68D /* Build configuration list for PBXNativeTarget "AuctionSniper" */;
+			buildPhases = (
+				5BD018AF2CF94F1EE56EBD90 /* Sources */,
+				8C4A42D08B0BCF9C6642F2A8 /* Resources */,
+				9F68415AC26C0D14A675703E /* Frameworks */,
+				44CF25077327A48CF5969447 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AuctionSniper;
+			packageProductDependencies = (
+			);
+			productName = AuctionSniper;
+			productReference = BB6DA5B7508464C1F272F123 /* AuctionSniper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		77894C059BC89D4C6C7031E4 /* AuctionSniperUnitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 018BFE2CB97471136A0A7948 /* Build configuration list for PBXNativeTarget "AuctionSniperUnitTests" */;
+			buildPhases = (
+				A1B694755A117B9E36033C7B /* Sources */,
+				565530EB8F74A9853F3105B8 /* Resources */,
+				7485F0DEC856CFF160CBD003 /* Frameworks */,
+				9313979F704EA0FD52FBDF16 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03763ADEFAA135AEB304D4D7 /* PBXTargetDependency */,
+			);
+			name = AuctionSniperUnitTests;
+			packageProductDependencies = (
+			);
+			productName = AuctionSniperUnitTests;
+			productReference = 40C45AB31A3670823C202EC8 /* AuctionSniperUnitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B37085AA7A1D1CA0999FD4BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				TargetAttributes = {
+					03DD44F32041967B280CF289 = {
+						TestTargetID = 3A41DF588F61A4903E155047;
+					};
+					77894C059BC89D4C6C7031E4 = {
+						TestTargetID = 3A41DF588F61A4903E155047;
+					};
+				};
+			};
+			buildConfigurationList = E4367BAC1994AC92FA32CA1F /* Build configuration list for PBXProject "macOS-AuctionSniper" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 21F147C585B4E9F4DE3954DA;
+			productRefGroup = D54127BBC74ABAEED2CE9E7F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3A41DF588F61A4903E155047 /* AuctionSniper */,
+				03DD44F32041967B280CF289 /* AuctionSniperEndToEndTests */,
+				77894C059BC89D4C6C7031E4 /* AuctionSniperUnitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49AA8AF3AF46CF44714BBE49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		565530EB8F74A9853F3105B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C4A42D08B0BCF9C6642F2A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1606192119F846F76C496E37 /* Assets.xcassets in Resources */,
+				06B0BFBE2B51AC7C6F1889EC /* Preview Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32FCF962B30D22FBFCD2AF8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FE6760BA304836A1B52034F /* SampleEndToEndTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BD018AF2CF94F1EE56EBD90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AE2285E8B8F3E97F4269F3C /* TuistAssets+AuctionSniper.swift in Sources */,
+				26FE506AA48A3D3D01DF58DB /* TuistBundle+AuctionSniper.swift in Sources */,
+				727B72D96611054F1BB06100 /* ContentView.swift in Sources */,
+				3E27A2EC09F16D96C7C7ECFF /* MacOSAutionSniperApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1B694755A117B9E36033C7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7E28CAE74F38088C6645DA0 /* MacOSAutionSniperTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03763ADEFAA135AEB304D4D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AuctionSniper;
+			target = 3A41DF588F61A4903E155047 /* AuctionSniper */;
+			targetProxy = 9670A615EF6B08DF07849211 /* PBXContainerItemProxy */;
+		};
+		71EAB6AE484F9618D72B2DC7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AuctionSniper;
+			target = 3A41DF588F61A4903E155047 /* AuctionSniper */;
+			targetProxy = 70547A9A39E2B8DAC2E35B10 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00BE8C2C58E0DF7BD642A43B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		165DCA319E31F8E8D30BE49B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "-";
+				INFOPLIST_FILE = "Derived/InfoPlists/AuctionSniperUnitTests-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sweetpt365.AuctionSniper.unitTests;
+				PRODUCT_NAME = AuctionSniperUnitTests;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AuctionSniper.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AuctionSniper";
+				TEST_TARGET_NAME = AuctionSniper;
+			};
+			name = Release;
+		};
+		4D6140EBDFBA8E9995B2F0CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Derived/InfoPlists/AuctionSniper-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sweetpt365.AuctionSniper.dev;
+				PRODUCT_NAME = AuctionSniper;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		77E1CBD34C606099264E2D91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				INFOPLIST_FILE = "Derived/InfoPlists/AuctionSniperEndToEndTests-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sweetpt365.AuctionSniper.endToEndTests;
+				PRODUCT_NAME = AuctionSniperEndToEndTests;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = AuctionSniper;
+			};
+			name = Release;
+		};
+		A2673BABAB58E7AD45EC2670 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "-";
+				INFOPLIST_FILE = "Derived/InfoPlists/AuctionSniperUnitTests-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sweetpt365.AuctionSniper.unitTests;
+				PRODUCT_NAME = AuctionSniperUnitTests;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AuctionSniper.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AuctionSniper";
+				TEST_TARGET_NAME = AuctionSniper;
+			};
+			name = Debug;
+		};
+		D906B17280169DC9BBA15833 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F1BEAFC2189B4784E9CC3F53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				INFOPLIST_FILE = "Derived/InfoPlists/AuctionSniperEndToEndTests-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sweetpt365.AuctionSniper.endToEndTests;
+				PRODUCT_NAME = AuctionSniperEndToEndTests;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = AuctionSniper;
+			};
+			name = Debug;
+		};
+		FB14782D8DDE7C06D688EB5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Derived/InfoPlists/AuctionSniper-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sweetpt365.AuctionSniper.dev;
+				PRODUCT_NAME = AuctionSniper;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		018BFE2CB97471136A0A7948 /* Build configuration list for PBXNativeTarget "AuctionSniperUnitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2673BABAB58E7AD45EC2670 /* Debug */,
+				165DCA319E31F8E8D30BE49B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3627EBE1BAB84109C67333F4 /* Build configuration list for PBXNativeTarget "AuctionSniperEndToEndTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1BEAFC2189B4784E9CC3F53 /* Debug */,
+				77E1CBD34C606099264E2D91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93F39C67869C335DFF4DD68D /* Build configuration list for PBXNativeTarget "AuctionSniper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB14782D8DDE7C06D688EB5D /* Debug */,
+				4D6140EBDFBA8E9995B2F0CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4367BAC1994AC92FA32CA1F /* Build configuration list for PBXProject "macOS-AuctionSniper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D906B17280169DC9BBA15833 /* Debug */,
+				00BE8C2C58E0DF7BD642A43B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B37085AA7A1D1CA0999FD4BF /* Project object */;
+}

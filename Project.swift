@@ -1,27 +1,58 @@
 import ProjectDescription
 
 let project = Project(
-    name: "macOS-AutionSniper",
+    name: "macOS-AuctionSniper",
+    settings: .settings(
+        base: [
+            "MACOSX_DEPLOYMENT_TARGET": "13.5"
+        ]
+    ),
     targets: [
         .target(
-            name: "macOS-AutionSniper",
+            name: "AuctionSniper",
             destinations: .macOS,
             product: .app,
-            bundleId: "io.tuist.macOS-AutionSniper",
+            bundleId: "sweetpt365.AuctionSniper.dev",
             infoPlist: .default,
-            sources: ["macOS-AutionSniper/Sources/**"],
-            resources: ["macOS-AutionSniper/Resources/**"],
+            sources: ["macOS-AuctionSniper/Sources/**"],
+            resources: ["macOS-AuctionSniper/Resources/**"],
             dependencies: []
         ),
         .target(
-            name: "macOS-AutionSniperTests",
+            name: "AuctionSniperUnitTests",
             destinations: .macOS,
             product: .unitTests,
-            bundleId: "io.tuist.macOS-AutionSniperTests",
+            bundleId: "sweetpt365.AuctionSniper.unitTests",
             infoPlist: .default,
-            sources: ["macOS-AutionSniper/Tests/**"],
+            sources: ["macOS-AuctionSniper/UnitTests/**"],
             resources: [],
-            dependencies: [.target(name: "macOS-AutionSniper")]
+            dependencies: [.target(name: "AuctionSniper")]
         ),
+        .target(
+            name: "AuctionSniperEndToEndTests",
+            destinations: .macOS,
+            product: .uiTests,
+            bundleId: "sweetpt365.AuctionSniper.endToEndTests",
+            infoPlist: .default,
+            sources: ["macOS-AuctionSniper/EndToEndTests/**"],
+            dependencies: [.target(name: "AuctionSniper")]
+        )
+    ],
+    schemes: [
+        .scheme(
+            name: "AuctionSniper",
+            shared: true,
+            buildAction: .buildAction(
+                targets: [.target("AuctionSniper")]
+            ),
+            testAction: .targets(
+                [
+                    .testableTarget(target: "AuctionSniperUnitTests"),
+                    .testableTarget(target: "AuctionSniperEndToEndTests")
+                ]
+            ),
+            runAction: .runAction(configuration: .debug)
+        )
     ]
 )
+

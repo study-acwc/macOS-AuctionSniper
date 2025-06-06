@@ -1,0 +1,46 @@
+name: PR Build & Test
+
+on:
+  push:
+
+jobs:
+  build-and-test:
+    runs-on: self-hosted
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Install mise (if not globally available)
+        run: |
+          if ! command -v mise &> /dev/null; then
+            curl https://mise.run | bash
+          fi
+          export PATH="$HOME/.local/bin:$HOME/.local/share/mise/bin:$PATH"
+          mise --version
+
+      - name: Setup mise cache
+        uses: actions/cache@v3
+        with:
+          path: ~/.local/share/mise/installs
+          key: ${{ runner.os }}-mise-${{ hashFiles('.mise.toml') }}
+
+      - name: Install tools via mise
+        run: |
+          export PATH="$HOME/.local/bin:$HOME/.local/share/mise/bin:$PATH"
+          mise install
+
+      - name: Generate project with Makefile
+        run: |
+          make generate-no-cache
+
+      - name: Set up Ruby & Bundler
+        uses: ruby/setup-ruby@v1
+        with:
+          bundler-cache: true
+
+      - name: Install dependencies
+        run: bundle install --jobs 4 --retry 3
+
+      - name: Run tests with fastlane scan
+        run: bundle exec fastlane build
